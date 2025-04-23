@@ -1,0 +1,116 @@
+!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal tech</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+        :root {
+            --primary: #2c3e50;
+            --accent: #b03a2e;
+            --light-bg: #f4f4f4;
+            --text-color: #333;
+        }
+        body {
+            background-color: var(--light-bg);
+            color: var(--text-color);
+            font-family: 'Merriweather', serif;
+        }
+        #wrapper {
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        header h1 {
+            font-size: 36px;
+            text-align: center;
+            padding: 20px 0;
+            color: var(--primary);
+            font-weight: 900;
+            letter-spacing: 1px;
+        }
+        nav {
+            background-color: var(--primary);
+        }
+        a.menu {
+            display: inline-block;
+            width: 25%;
+            padding: 15px 30px;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+        a.menu:hover, .active {
+            background-color: var(--accent);
+        }
+        article {
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        article h1 {
+            font-size: 28px;
+            text-align: center;
+            font-weight: bold;
+            font-style: italic;
+            color: var(--primary);
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        img.left {
+            float: left;
+            padding: 0px 10px 10px 0;
+            border-radius: 50% 30%;
+        }
+        article p {
+            text-align: justify;
+            line-height: 25px;
+            font-size: 18px;
+            padding: 15px 0;
+        }
+        iframe {
+            width: 100%;
+        }
+        footer {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            font-style: italic;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Legal Tech – Nowoczesność w Prawie</h1>
+        </header>    
+        <nav>
+            <a class="menu active" href="#">Strona główna</a>
+            <a class="menu" href="#">Materiały wideo</a>
+            <a class="menu" href="#">Źródła</a>
+            <a class="menu" href="#">Twórcy</a>
+        </nav>
+        <section>
+            <article> 
+                <h1>Legal tech - Przełom w pracy prawników</h1>
+                <p><img class="left" src="rbl_235x235.jpg" alt="Wizja robotycznego prawnika."/>Legal tech, czyli technologia prawnicza, to termin określający wykorzystanie nowoczesnych rozwiązań technologicznych w branży prawniczej. Obejmuje różnego rodzaju oprogramowania, aplikacje, platformy internetowe i systemy automatyzujące lub wspomagające pracę prawników. Legal tech ma na celu usprawnienie procesów prawnych, zwiększenie dostępności usług prawnych oraz redukcję kosztów ich świadczenia.</p>
+                <p>Dzięki specjalistycznym narzędziom, prawnicy mogą szybciej analizować dokumenty, tworzyć umowy, zarządzać terminami i komunikować się z klientami. Systemy do zarządzania kancelarią pomagają organizować pracę zespołu i przechowywać dokumentację w sposób bezpieczny i uporządkowany.</p>
+                <p>Legal tech niesie ze sobą wiele korzyści – oszczędność czasu, redukcję błędów, lepsze zarządzanie obowiązkami, większą dostępność usług. Rozwiązania takie jak analiza ryzyka prawnego czy predykcja wyników spraw pozwalają podejmować bardziej świadome decyzje.</p>
+                <p>Szerzej temat ten jest poruszany przez prof. P. Polańskiego i dr M. Kosińskiego w poniższym filmie.</p>
+            </article>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ShyMAZfZMIQ?si=uIqVCZ4q_fjP_I8U" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <footer>
+            © 2025 LegalTech Polska | Projekt edukacyjny | Autorzy: Jan Kowalski, Anna Nowak
+        </footer>
+    </div>
+</body>
+</html>
